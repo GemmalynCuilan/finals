@@ -2,7 +2,7 @@
 <html>
 <body>
 	<title>Student ID Registration System</title>
-	<h2>Student ID Registration System</h3>
+	<h2>Student ID Registration System</h2>
 </head>
 <body>
 
