@@ -2,13 +2,9 @@
 
 :root {
   --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
   --color-green: #37af65;
-  --color-forestgreen: #228B22;
-  --color-mediumseagreen: #3CB371;
-  --color-darkgreen: #006400;
-  --color-olivedrab: 	#6B8E23;
-  --color-olive: #808000;
- 
 }
 
 *,
@@ -35,13 +31,13 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: var(--color-darkgreen);
+  background: var(--color-darkblue);
   background-image: linear-gradient(
       115deg,
-      rgba(160, 179, 11, 0.😎,
-      rgba(60, 139, 87, 0.7)
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
     ),
-    url(https://www.w3schools.com/css/img_forest.jpg);
+  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -124,7 +120,7 @@ button {
 /* form */
 
 form {
-  background: var(--color-olivedrab);
+  background: var(--color-darkblue-alpha);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
@@ -178,7 +174,7 @@ form {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-olive);
+  background: var(--color-green);
   color: inherit;
   border-radius: 2px;
   cursor: pointer;
